@@ -22,6 +22,10 @@ export default function App() {
           <Ionicons name="person-outline" size={size} color={color} />
         )}} />
       <Tabs.Screen name='index' options={{href: null}}/>
+      <Tabs.Screen name='aang' options={{href: null}}/>
+      <Tabs.Screen name='katara' options={{href: null}}/>
+      <Tabs.Screen name='zuko' options={{href: null}}/>
+      <Tabs.Screen name='toph' options={{href: null}}/>
      </Tabs>
     </GluestackUIProvider>
 
