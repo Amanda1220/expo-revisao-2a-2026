@@ -185,11 +185,12 @@ export default function Pagina1() {
     Ver imagem
   </Text>
 </Pressable>
+
         </View>
 
 
         {/* KATARA */}
-        <View className="bg-[#479bd8] rounded-3xl p-5 mb-4">
+        <View className="bg-[#3979A8] rounded-3xl p-5 mb-4">
           <View className="flex-row justify-between items-center">
 
             <View>
@@ -218,7 +219,8 @@ export default function Pagina1() {
           <Text className="text-[#D6EEFF] font-bold mt-3">
             Dobra: Água
           </Text>
-          <Pressable
+
+<Pressable
   className="bg-[#D6EEFF] rounded-xl p-3 mt-4 items-center"
   onPress={() => router.push('/katara')}
 >
@@ -226,12 +228,11 @@ export default function Pagina1() {
     Ver imagem
   </Text>
 </Pressable>
-
         </View>
 
 
         {/* TOPH */}
-        <View className="bg-[#3a6332] rounded-3xl p-5 mb-4">
+        <View className="bg-[#607A3C] rounded-3xl p-5 mb-4">
           <View className="flex-row justify-between items-center">
 
             <View>
@@ -261,7 +262,6 @@ export default function Pagina1() {
           <Text className="text-[#E5EDCF] font-bold mt-3">
             Dobras: Terra • Metal
           </Text>
-
           <Pressable
   className="bg-[#E5EDCF] rounded-xl p-3 mt-4 items-center"
   onPress={() => router.push('/toph')}
@@ -275,7 +275,7 @@ export default function Pagina1() {
 
 
         {/* ZUKO */}
-        <View className="bg-[#ff2c2c] rounded-3xl p-5 mb-4">
+        <View className="bg-[#A93B2D] rounded-3xl p-5 mb-4">
           <View className="flex-row justify-between items-center">
 
             <View>
@@ -349,11 +349,11 @@ export default function Pagina1() {
             onPress={() => router.push('/Pagina2')}
           >
             <Text className="text-[#F4E7C5] text-lg font-extrabold">
-              Nações
+              ELEMENTOS
             </Text>
 
             <Text className="text-[#D5C09E] mt-2">
-              Conhecer o mundo
+              Os quatro elementos
             </Text>
           </Pressable>
 
@@ -363,11 +363,11 @@ export default function Pagina1() {
             onPress={() => router.push('/Pagina3')}
           >
             <Text className="text-[#F4E7C5] text-lg font-extrabold">
-              Avatares
+              PERFIL
             </Text>
 
             <Text className="text-[#D5C09E] mt-2">
-              Ciclo Avatar
+              Meu perfil
             </Text>
           </Pressable>
 
