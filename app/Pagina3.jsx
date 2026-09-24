@@ -11,12 +11,8 @@ export default function Perfil() {
 
     <Box className="flex-1 bg-[#E8D8B0]">
 
-      <ScrollView
-        className="flex-1"
-        contentContainerStyle={{
-          paddingHorizontal: 20,
-          paddingTop: 50,
-          paddingBottom: 40,
+      <ScrollView className="flex-1" contentContainerStyle={{ 
+        paddingHorizontal: 20, paddingTop: 50, paddingBottom: 40,
         }}
         showsVerticalScrollIndicator={false}
       >
@@ -44,7 +40,7 @@ export default function Perfil() {
 
 
           <Text className="text-2xl">
-            ☯️
+            ☀️​
           </Text>
 
         </View>
@@ -567,7 +563,7 @@ export default function Perfil() {
           >
 
             <Text className="text-3xl">
-              ☯️
+              ☀️​
             </Text>
 
             <Text className="text-white font-extrabold mt-2">
@@ -638,7 +634,7 @@ export default function Perfil() {
         >
 
           <Text className="text-[#F4E7C5] text-lg font-extrabold">
-            ← Voltar
+             Voltar
           </Text>
 
         </Pressable>
